@@ -11,6 +11,7 @@ int main()
 	{
 		 
 cin >> input;
+antalTecken += input.length();
 antal_Rader++;
 if (input =="stop")
 {
@@ -18,10 +19,9 @@ if (input =="stop")
 }
 	}
 
-	
-	antalTecken += input.length();
-	 
-	cout << "Antal tecken  "<<antal_Rader << "Antal rader   " << antalTecken;
+	// skiver ut här 
+ 	 
+	cout << "Antal tecken    "<<antal_Rader << "Antal rader   " << antalTecken;
 
 
 
