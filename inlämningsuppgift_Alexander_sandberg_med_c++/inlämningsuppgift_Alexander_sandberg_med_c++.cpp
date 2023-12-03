@@ -1,31 +1,31 @@
  #include <iostream>
 #include <String>
 #include "logik.h"
-using namespace std;
-string input;
-int antal_Rader =0;
-int antalTecken = 0;
  
-//logik objet = *new class logik;
-
+logik myObj;   
 int main()
 {
+   std::string input;
+   int antal_Rader =0;
+   int antalTecken = 0;
 	 
-	cout << "type stop to exit";
+	std::cout << "type stop to exit"<<std::endl;
 	while (true)
 	{
-cin >> input;
-antalTecken += input.length();
-antal_Rader++;
-if (input =="stop")
-{
+		std::cin >> input;
+		//myObj.antalTecken(input);
+        antalTecken += input.length();
+        antal_Rader++;
+        if (input =="stop")
+    {
 	break;
-}
+    }
+
 	}
+	
 	 
-	// skiver ut här 
- 	 
-	cout << "Antal tecken"<<" "<<antal_Rader << " Antal rader"<<" " << antalTecken;
+	 
+	std::cout << "Antal tecken"<<" "<<antal_Rader << " Antal rader"<<" " << antalTecken;
 
 
 
