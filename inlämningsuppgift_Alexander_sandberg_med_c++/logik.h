@@ -1,6 +1,7 @@
 #pragma once
 class logik
 {
-	int linecount = 0;
+	int antal_Rader = 0;
+	int antalTecken = 0;
 };
 
