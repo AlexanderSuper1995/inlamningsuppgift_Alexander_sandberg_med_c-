@@ -13,17 +13,17 @@ Del 2 – fortsättning 1 - G
  Programmet skall bestå av två klasser:
   En klass som läser in text och skriver ut
 resultatet till användaren
-# inte klar 
+# är klar
 
   En annan klass som räknar raderna och har
 koll på antalet tecken
-# inte klar 
+# är klar
 
  Kontrollen för att ha koll på om användaren
 har skrivit ordet stop eller inte får utföras i
 vilken av klasserna man vill
 Del 2 – fortsättning 2 - G
-# inte klar 
+# är klar
 
   Till programmet skall minst tre testfall
 skrivas
