@@ -27,10 +27,10 @@ Del 2 – fortsättning 2 - G
 
   Till programmet skall minst tre testfall
 skrivas
-# inte klar 
+# är klar
   Testfallen skall skilja sig märkvärt åt och testa
 olika delar av programmet
-# inte klar 
+# är klar
 
   Programmet skall versionshanteras och finnas
 tillgängligt på Github.
