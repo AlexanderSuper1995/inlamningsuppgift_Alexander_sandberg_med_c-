@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="inlämningsuppgift_Alexander_sandberg_med_c++.cpp" />
     <ClCompile Include="logik.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="logik.h" />
