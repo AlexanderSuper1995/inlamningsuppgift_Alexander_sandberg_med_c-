@@ -9,29 +9,29 @@
 using namespace std;
 int main()
 {
-	logik logikObj = *new logik;
+	  
+	logik logikObj = *new (logik);
     SetConsoleOutputCP(65001);
    std::string input;
-  
- 
-	std::cout << "om program ska stängas av måste du skiva stop"<<std::endl;
- 
-   		
+   int x = 0;
+   std::cout << "om program ska stängas av måste du skiva stop\n";
 		while(true)
 		{
-			std::cin >> input;
+			std::cin >> input;			
+			std::cout << "du skrev men stängas av måste du skiva stop\n";
 			logikObj.antalTecken_metod(input);
 			logikObj.antal_Rader_metod();
-
 			if (input=="stop")
 			{
 				break;
 			}
 		}
+	 
+std::cout<< "antalantalTecken "<< logikObj.antalTecken<<" antal rader "<< logikObj.antal_Rader<<" om du vill stänga förstert skiv stop\n";
+// för att man ska kunna se det som exe annas försvinner förstert så fort att man inte ser något
+std::cin >> input;
 
-std::cout<< "antalantalTecken " << logikObj.antalTecken <<" antalTecken ";
-std::cout << logikObj.antal_Rader;
-
+return 0;
 	}
 	 
 	 
